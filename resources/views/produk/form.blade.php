@@ -12,7 +12,7 @@
             <form method="post" action="produk">
                 @csrf
                 <div id="method">
-                    @method('put')
+                    {{-- @method('put') --}}
                 </div>
         <div class="form-group row">
             <label for="staticEmail" class="col-sm-4 col-form-label">Nama Produk</label>
