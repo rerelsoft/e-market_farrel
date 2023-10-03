@@ -14,16 +14,18 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="{{ asset('adminlte3') }}/plugins/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="{{ asset('adminlte3') }}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js">
 <!-- AdminLTE App -->
-<script src="{{ asset('adminlte3') }}/dist/js/adminlte.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{ asset('adminlte3') }}/dist/js/demo.js"></script>
-<script src="{{ asset('js') }}/sweetalert2.js"></script>
-<script src="{{ asset('adminlte3') }}/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
-<script src="{{ asset('adminlte3') }}/plugins/datatables/jquery.dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.31/sweetalert2.js"></script>
+{{-- datatable --}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 @stack('script')
 </body>
 </html>
