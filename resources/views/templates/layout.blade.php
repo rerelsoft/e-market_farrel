@@ -12,9 +12,11 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/css/adminlte.min.css">
   {{-- <link src="{{ asset('plugins') }}/datatables-bs4/css/dataTables.bootstrap4.min.css"> --}}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-
+  {{-- sweetalert --}}
+  <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
+" rel="stylesheet">
   @stack('style')
 </head>
 <body class="hold-transition sidebar-mini">
