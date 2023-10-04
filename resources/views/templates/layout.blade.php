@@ -14,6 +14,7 @@
   {{-- <link src="{{ asset('plugins') }}/datatables-bs4/css/dataTables.bootstrap4.min.css"> --}}
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   {{-- sweetalert --}}
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link href="
 https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
 " rel="stylesheet">
